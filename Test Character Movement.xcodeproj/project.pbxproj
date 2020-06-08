@@ -17,6 +17,19 @@
 		84B526A424225FDC00050C7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B526A224225FDC00050C7A /* LaunchScreen.storyboard */; };
 		84B526AF24225FDC00050C7A /* Test_Character_MovementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B526AE24225FDC00050C7A /* Test_Character_MovementTests.swift */; };
 		84B526BA24225FDC00050C7A /* Test_Character_MovementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B526B924225FDC00050C7A /* Test_Character_MovementUITests.swift */; };
+		84E6D7D9242832040069C953 /* TLAnalogJoystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6D7D8242832040069C953 /* TLAnalogJoystick.swift */; };
+		84E6D7F32428CDF60069C953 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D7DD2428CDF60069C953 /* gear.png */; };
+		84E6D7F42428CDF60069C953 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D7DE2428CDF60069C953 /* plus.png */; };
+		84E6D7F52428CDF60069C953 /* jStick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D7DF2428CDF60069C953 /* jStick@2x.png */; };
+		84E6D7F62428CDF60069C953 /* jSubstrate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D7E02428CDF60069C953 /* jSubstrate@2x.png */; };
+		84E6D7F82428CDF60069C953 /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D7E22428CDF60069C953 /* plus@2x.png */; };
+		84E6D7F92428CDF60069C953 /* apple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D7E32428CDF60069C953 /* apple@2x.png */; };
+		84E6D7FA2428CDF60069C953 /* minus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D7E42428CDF60069C953 /* minus@2x.png */; };
+		84E6D7FD2428CDF60069C953 /* minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D7E92428CDF60069C953 /* minus.png */; };
+		84E6D7FE2428CDF60069C953 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D7EA2428CDF60069C953 /* apple.png */; };
+		84E6D8002428CDF60069C953 /* jSubstrate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D7EC2428CDF60069C953 /* jSubstrate.png */; };
+		84E6D8022428CDF60069C953 /* gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D7EE2428CDF60069C953 /* gear@2x.png */; };
+		84E6D8052428CDF60069C953 /* jStick.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D7F12428CDF60069C953 /* jStick.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +66,19 @@
 		84B526B524225FDC00050C7A /* Test Character MovementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test Character MovementUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B526B924225FDC00050C7A /* Test_Character_MovementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_Character_MovementUITests.swift; sourceTree = "<group>"; };
 		84B526BB24225FDC00050C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E6D7D8242832040069C953 /* TLAnalogJoystick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLAnalogJoystick.swift; sourceTree = "<group>"; };
+		84E6D7DD2428CDF60069C953 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		84E6D7DE2428CDF60069C953 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		84E6D7DF2428CDF60069C953 /* jStick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jStick@2x.png"; sourceTree = "<group>"; };
+		84E6D7E02428CDF60069C953 /* jSubstrate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jSubstrate@2x.png"; sourceTree = "<group>"; };
+		84E6D7E22428CDF60069C953 /* plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus@2x.png"; sourceTree = "<group>"; };
+		84E6D7E32428CDF60069C953 /* apple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple@2x.png"; sourceTree = "<group>"; };
+		84E6D7E42428CDF60069C953 /* minus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minus@2x.png"; sourceTree = "<group>"; };
+		84E6D7E92428CDF60069C953 /* minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus.png; sourceTree = "<group>"; };
+		84E6D7EA2428CDF60069C953 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		84E6D7EC2428CDF60069C953 /* jSubstrate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jSubstrate.png; sourceTree = "<group>"; };
+		84E6D7EE2428CDF60069C953 /* gear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear@2x.png"; sourceTree = "<group>"; };
+		84E6D7F12428CDF60069C953 /* jStick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jStick.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,14 +130,14 @@
 			isa = PBXGroup;
 			children = (
 				84B5269324225FD900050C7A /* AppDelegate.swift */,
-				84B5269524225FD900050C7A /* GameScene.sks */,
+				84E6D7DB242832970069C953 /* Views */,
+				84E6D7DA2428320D0069C953 /* Joystick */,
 				84B5269724225FD900050C7A /* Actions.sks */,
-				84B5269924225FD900050C7A /* GameScene.swift */,
-				84B5269B24225FD900050C7A /* GameViewController.swift */,
 				84B5269D24225FD900050C7A /* Main.storyboard */,
 				84B526A024225FDC00050C7A /* Assets.xcassets */,
 				84B526A224225FDC00050C7A /* LaunchScreen.storyboard */,
 				84B526A524225FDC00050C7A /* Info.plist */,
+				84E6D7DC2428CDF60069C953 /* AnalogStick Demo */,
 			);
 			path = "Test Character Movement";
 			sourceTree = "<group>";
@@ -132,6 +158,43 @@
 				84B526BB24225FDC00050C7A /* Info.plist */,
 			);
 			path = "Test Character MovementUITests";
+			sourceTree = "<group>";
+		};
+		84E6D7DA2428320D0069C953 /* Joystick */ = {
+			isa = PBXGroup;
+			children = (
+				84E6D7D8242832040069C953 /* TLAnalogJoystick.swift */,
+			);
+			path = Joystick;
+			sourceTree = "<group>";
+		};
+		84E6D7DB242832970069C953 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84B5269B24225FD900050C7A /* GameViewController.swift */,
+				84B5269924225FD900050C7A /* GameScene.swift */,
+				84B5269524225FD900050C7A /* GameScene.sks */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84E6D7DC2428CDF60069C953 /* AnalogStick Demo */ = {
+			isa = PBXGroup;
+			children = (
+				84E6D7DD2428CDF60069C953 /* gear.png */,
+				84E6D7DE2428CDF60069C953 /* plus.png */,
+				84E6D7DF2428CDF60069C953 /* jStick@2x.png */,
+				84E6D7E02428CDF60069C953 /* jSubstrate@2x.png */,
+				84E6D7E22428CDF60069C953 /* plus@2x.png */,
+				84E6D7E32428CDF60069C953 /* apple@2x.png */,
+				84E6D7E42428CDF60069C953 /* minus@2x.png */,
+				84E6D7E92428CDF60069C953 /* minus.png */,
+				84E6D7EA2428CDF60069C953 /* apple.png */,
+				84E6D7EC2428CDF60069C953 /* jSubstrate.png */,
+				84E6D7EE2428CDF60069C953 /* gear@2x.png */,
+				84E6D7F12428CDF60069C953 /* jStick.png */,
+			);
+			path = "AnalogStick Demo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,9 +302,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				84B5269F24225FD900050C7A /* Main.storyboard in Resources */,
+				84E6D8022428CDF60069C953 /* gear@2x.png in Resources */,
+				84E6D8052428CDF60069C953 /* jStick.png in Resources */,
 				84B5269624225FD900050C7A /* GameScene.sks in Resources */,
+				84E6D7F92428CDF60069C953 /* apple@2x.png in Resources */,
+				84E6D7F62428CDF60069C953 /* jSubstrate@2x.png in Resources */,
+				84E6D7F52428CDF60069C953 /* jStick@2x.png in Resources */,
+				84E6D7F32428CDF60069C953 /* gear.png in Resources */,
 				84B526A124225FDC00050C7A /* Assets.xcassets in Resources */,
+				84E6D7FD2428CDF60069C953 /* minus.png in Resources */,
+				84E6D7F82428CDF60069C953 /* plus@2x.png in Resources */,
 				84B526A424225FDC00050C7A /* LaunchScreen.storyboard in Resources */,
+				84E6D7FA2428CDF60069C953 /* minus@2x.png in Resources */,
+				84E6D7F42428CDF60069C953 /* plus.png in Resources */,
+				84E6D7FE2428CDF60069C953 /* apple.png in Resources */,
+				84E6D8002428CDF60069C953 /* jSubstrate.png in Resources */,
 				84B5269824225FD900050C7A /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +345,7 @@
 				84B5269A24225FD900050C7A /* GameScene.swift in Sources */,
 				84B5269C24225FD900050C7A /* GameViewController.swift in Sources */,
 				84B5269424225FD900050C7A /* AppDelegate.swift in Sources */,
+				84E6D7D9242832040069C953 /* TLAnalogJoystick.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

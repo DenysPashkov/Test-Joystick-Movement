@@ -17,6 +17,49 @@ class GameScene: SKScene {
 	
 	var backgroundCustomColor = UIColor.blue
 	
+	let moveJoystick = TLAnalogJoystick(withDiameter: 50)
+	
+//	MARK: Start Stuff
+	
+	override func didMove(to view: SKView) {
+
+		//MARK: Setup
+		self.backgroundColor =  backgroundCustomColor
+		
+		joystickManager()
+		spawnPlayer()
+		
+		view.isMultipleTouchEnabled = true
+
+	}
+	
+//	MARK: Preparation Zone
+	
+	func joystickManager(){
+		var image = UIImage(named: "jStick")
+		moveJoystick.handleImage = image
+		image = UIImage(named: "jSubstrate")
+		moveJoystick.baseImage = image
+		let moveJoystickHiddenArea = TLAnalogJoystickHiddenArea(rect: CGRect(x: 0, y: 0, width: frame.midX, height: frame.height))
+		moveJoystickHiddenArea.strokeColor = UIColor.black.withAlphaComponent(0)
+		moveJoystickHiddenArea.joystick = moveJoystick
+		moveJoystick.isMoveable = true
+		addChild(moveJoystickHiddenArea)
+		
+		moveJoystick.on(.move) { [unowned self] joystick in
+			guard let player = self.player else {
+				return
+			}
+
+			let pVelocity = joystick.velocity;
+			let speed = CGFloat(0.12)
+
+			player.position = CGPoint(x: player.position.x + (pVelocity.x * speed), y: player.position.y + (pVelocity.y * speed))
+
+		}
+		
+	}
+//	Create player ( a cube in this case ) 
 	func spawnPlayer() {
 		player = SKSpriteNode(color: playerColor, size: playerSize)
 		player?.position = CGPoint(x: self.frame.midX, y: self.frame.midY)
@@ -24,57 +67,4 @@ class GameScene: SKScene {
 		self.addChild(player!)
 	}
 	
-	override func didMove(to view: SKView) {
-		self.backgroundColor =  backgroundCustomColor
-		
-		spawnPlayer()
-	}
-    
-    
-    func touchDown(atPoint pos : CGPoint) {
-        
-		
-		
-    }
-    
-    func touchMoved(toPoint pos : CGPoint) {
-        
-		
-		
-    }
-    
-    func touchUp(atPoint pos : CGPoint) {
-        
-		
-		
-    }
-    
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        
-		
-		
-    }
-    
-    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
-		
-		
-		
-    }
-    
-    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-		
-		
-    }
-    
-    override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
-		
-		
-		
-    }
-    
-    
-    override func update(_ currentTime: TimeInterval) {
-		
-		
-	}
 }
